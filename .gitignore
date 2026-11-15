@@ -1,0 +1,35 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+web-build/
+
+# Expo
+.expo/
+
+# Vercel
+.vercel/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+# Local backups
+*BACKUP*
+*backup*
+*Backup*
+*BACKUP*
+*copy*
+
+# Local environment files
+.env
+.env.*
+!.env.example

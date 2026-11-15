@@ -1,0 +1,29 @@
+
+{
+  "expo": {
+    "name": "LEONFIT",
+    "slug": "leonfit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/leonfit-icon.png",
+    "web": {
+      "name": "LEONFIT",
+      "shortName": "LEONFIT",
+      "themeColor": "#090909",
+      "backgroundColor": "#090909",
+      "display": "standalone",
+      "favicon": "./public/leonfit-icon.png"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-sqlite"
+    ]
+  }
+}
